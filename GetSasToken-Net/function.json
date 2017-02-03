@@ -9,9 +9,9 @@
     },
     {
       "type": "serviceBus",
-      "name": "outputSbMsg",
+      "name": "RootManageSharedAccessKey",
       "queueName": "hbotqueue",
-      "connection": "RootManageSharedAccessKey",
+      "connection": "Endpoint=sb://hbotservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=OEZ5hG7bpQIV4PTCoiBRjC8I1FvNQZFvxTFjGQGNlac=",
       "accessRights_": "Manage",
       "direction": "out"
     }
