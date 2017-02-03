@@ -5,7 +5,7 @@
       "name": "myEventHubMessage",
       "direction": "in",
       "path": "insights-operational-logs",
-      "connection": "RootEventHubSAP"
+      "connection": "Endpoint=sb://hbotevent.servicebus.windows.net/;SharedAccessKeyName=RootHBotV2SASPolicy;SharedAccessKey=Lhf4buAyjmMQ2YmDIS0uh1r/1ivSif6UGqjyBqYUxVQ="
     },
     {
       "type": "serviceBus",
