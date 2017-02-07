@@ -2,7 +2,7 @@
   "bindings": [
     {
       "type": "eventHubTrigger",
-      "name": "insights-operational-logs",
+      "name": "myEventHubMessage",
       "direction": "in",
       "path": "insights-operational-logs",
       "connection": "RootsharedAccessPolicies"
