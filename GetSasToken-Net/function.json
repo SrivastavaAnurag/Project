@@ -2,15 +2,15 @@
   "bindings": [
     {
       "type": "eventHubTrigger",
-      "name": "myEventHubMessage",
+      "name": "insights-operational-logs",
       "direction": "in",
       "path": "insights-operational-logs",
-      "connection": "RootEventHubSAP"
+      "connection": "RootsharedAccessPolicies"
     },
     {
       "type": "serviceBus",
-      "name": "RootManageSharedAccessKey",
-      "queueName": "hbotqueue",
+      "name": "outputSbMsg",
+      "queueName": "hbotfunctionqu",
       "connection": "RootManageSharedAccessKey",
       "accessRights_": "Manage",
       "direction": "out"
