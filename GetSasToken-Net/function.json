@@ -10,7 +10,7 @@
     {
       "type": "serviceBus",
       "name": "outputSbMsg",
-      "queueName": "ouputhbotqueue",
+      "queueName": "outputhbotqueue",
       "connection": "OutputQueueConnectionString",
       "accessRights_": "Manage",
       "direction": "out"
