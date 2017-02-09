@@ -5,13 +5,13 @@
       "name": "myEventHubMessage",
       "direction": "in",
       "path": "insights-operational-logs",
-      "connection":"sharedrootaccesspolicies"	 
+      "connection":"EventHubConnectionString"	 
     },
     {
       "type": "serviceBus",
       "name": "outputSbMsg",
-      "queueName": "hbotfunctionqu",
-      "connection": "RootsharedAcessPolicies",
+      "queueName": "ouputhbotqueue",
+      "connection": "OutputQueueConnectionString",
       "accessRights_": "Manage",
       "direction": "out"
     }
