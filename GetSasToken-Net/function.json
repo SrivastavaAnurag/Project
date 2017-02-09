@@ -5,10 +5,7 @@
       "name": "myEventHubMessage",
       "direction": "in",
       "path": "insights-operational-logs",
-      "connection": {
-	  "name":"sharedrootaccesspolicies",
-	  "connection":""
-	  }
+      "connection":"sharedrootaccesspolicies"	 
     },
     {
       "type": "serviceBus",
